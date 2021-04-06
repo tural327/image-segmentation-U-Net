@@ -24,7 +24,7 @@ for validation our network i used 0.2 % of my dataset after fitting result was :
 
 [I buid test file]( also for my model
 
-[test file here (clickfor checking)](**https://github.com/tural327/image-segmentation-U-Net/blob/master/testing_model.py**)
+[test file here (clickfor checking)](https://github.com/tural327/image-segmentation-U-Net/blob/master/testing_model.py)
 
 After testing file result was :
 
