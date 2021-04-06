@@ -12,9 +12,9 @@ Before starting training we shuld make ready training dataset to fit in our mode
 
 In this section model was built. First layers was same like simple CNN but from buttom of our sturcture model strating transpose and making connection between pervious CNN layers
 
-Please check:
+[Please check training file:](https://github.com/tural327/image-segmentation-U-Net/blob/master/model_u_net.py)
 
-[inputs = tf.keras.layers.Input((img_h,img_w,img_c))
+inputs = tf.keras.layers.Input((img_h,img_w,img_c))
 s = tf.keras.layers.Lambda(lambda x: x/255)(inputs)
 
 #U-nets
@@ -70,7 +70,7 @@ c9 = tf.keras.layers.Conv2D(16,(3,3),activation='relu',kernel_initializer='he_no
 
 
 
-outputs = tf.keras.layers.Conv2D(1,(1,1),activation="sigmoid")(c9)](https://github.com/tural327/image-segmentation-U-Net/blob/master/model_u_net.py)
+outputs = tf.keras.layers.Conv2D(1,(1,1),activation="sigmoid")(c9)(https://github.com/tural327/image-segmentation-U-Net/blob/master/model_u_net.py)
 
 for validation our network i used 0.2 % of my dataset after fitting result was :
 
